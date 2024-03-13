@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,5 +37,9 @@ Route::get('/tugas', function() {
         ]
     ]);
 });
+
+Route::get('/dashboard',[HomeController::class, 'dashboard']);
+Route::get('/dashboard2',[HomeController::class, 'dashboard2']);
+Route::get('/dashboard3',[HomeController::class, 'dashboard3']);
 
 

@@ -33,7 +33,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Entah</a>
+                        <a href="/dashboard" class="nav-link">Dashboard</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
